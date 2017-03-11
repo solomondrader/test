@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Combinators Exercise</title>
+  <style>
+    div li {color: purple;}
+    div > p {color: red;}
+    p + p {color: blue;}
+  div ~ ul {color: orange;}
+  li em {color: pink;}
+
+
+    /* WRITE YOUR CSS HERE */
+
+  </style>
+</head>
+<body>
+  <div>
+    leave this text as the default black
+    <ol class="oranges">
+      <li>make the text for list items 1 & 2 purple using a descendant selector</li>
+      <li><p>make the text for list items 1 & 2 purple using a descendant selector</p></li>
+    </ol>
+    <p>
+      make this text red using a child selector
+    </p>
+    <p>
+      make this text blue using an adjacent selector
+    </p>
+  </div>
+    <ul>
+      <li>make this text orange using a general sibling selector; <em> and this phrase pink by combining 2 types of selectors</em></li>
+    </ul>
+
+</body>
+</html>
