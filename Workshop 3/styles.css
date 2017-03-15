@@ -1,0 +1,54 @@
+body{
+  background-color: #441E13;
+  color: white;
+}
+
+div{
+outline: 1px solid yellow;
+
+}
+
+.logo {
+color: white;
+font-weight: bold;
+font-size: 2.5rem;
+width: 195px;
+float: left;
+
+}
+
+
+.slogan {
+width: 380px;
+float: left;
+color: #a37b71;
+font-family: sans-serif;
+font-size: 0.9rem;
+margin-top: 18px;
+}
+
+.logoContainer {
+  max-width: 920px
+  margin-left: auto;
+  margin-right: auto;
+  overflow:hidden;
+}
+
+.nav{
+background-color: rgba(0,0,0, 0.25)
+height: 62px;
+margin-left: auto;
+margin-right: auto;
+max-width: 920px;
+}
+
+.nav li{
+  border-right: 1px solid #d4b364;
+  display: block;
+  float: left;
+  padding: 6px 20px;
+}
+
+.nav li:last-child {
+  border-right: none;
+}
