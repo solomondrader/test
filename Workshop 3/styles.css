@@ -28,26 +28,97 @@ margin-top: 18px;
 }
 
 .logoContainer {
-  max-width: 920px
-  margin-left: auto;
-  margin-right: auto;
-  overflow:hidden;
+max-width: 920px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+overflow: hidden;
 }
 
-.nav{
-background-color: rgba(0,0,0, 0.25)
+
+.nav {
+background-color: rgba(0,0,0,0.25);
 height: 62px;
 margin-left: auto;
 margin-right: auto;
+margin-top: 20px;
 max-width: 920px;
 }
+.nav ol {
+padding: 18px 10px;
+}
+.nav li {
+border-right: 1px solid #D4B364;
+display: block;
+float: left;
+font-family: sans-serif;
+padding: 6px 20px;
+}
+.nav li:last-child {
+border-right: none;
+}
 
-.nav li{
-  border-right: 1px solid #d4b364;
+.bottomsection-container{
+  width: 920px;
+  height: 614px;
+  background-color: grey;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutContainer {
+  width: 920px;
+  height: 214px;
+  background-color: green;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  max-width: 920px;}
+
+.about {
+color: white;
+font-weight: bold;
+font-size: 3rem;
+width: 195px;
+float: left;}
+
+.abouttext {
+float: left;
+}
+
+.sideList-Container{
+  width: 196px;
+  height: 614px;
+  background-color: blue;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  max-width: 920px;
+  float: left;
+}
+
+.sidelist{
+  border-bottom: : 1px solid #D4B364;
   display: block;
   float: left;
+  font-family: sans-serif;
   padding: 6px 20px;
 }
 
+.howwework-container {
+  width: 920px;
+  height: 214px;
+  background-color: grey;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  max-width: 920px;}
 
+.howwework{
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: sans-serif;
+  width: 195px;
+  float: left
 }
