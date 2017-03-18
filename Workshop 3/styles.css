@@ -4,7 +4,7 @@ body{
 }
 
 div{
-outline: 1px solid yellow;
+  //outline: 1px solid yellow;
 
 }
 
@@ -61,7 +61,7 @@ border-right: none;
 .bottomsection-container{
   width: 920px;
   height: 614px;
-  background-color: grey;
+  background-color: #dbd8c5;
   margin-left: auto;
   margin-right: auto;
 }
@@ -69,7 +69,7 @@ border-right: none;
 .aboutContainer {
   width: 920px;
   height: 214px;
-  background-color: green;
+  background-color: #87a984;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
@@ -80,19 +80,24 @@ color: white;
 font-weight: bold;
 font-size: 3rem;
 width: 195px;
-float: left;}
+float: left;
+padding-left: 25px;
+}
 
 .abouttext {
-float: left;
+  padding-top: 4rem;
+  font-family: sans-serif;
+  margin-left: 197px;
+  padding-left: 25px;
+  font-weight: lighter;
 }
 
 .sideList-Container{
   width: 196px;
   height: 614px;
-  background-color: blue;
+  background-color: #96afac;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
   max-width: 920px;
   float: left;
 }
@@ -105,20 +110,48 @@ float: left;
   padding: 6px 20px;
 }
 
+
+.sidelist ol {
+padding: 0px 0px;
+list-style: none;
+}
+
+.sidelist li{
+  padding: 10px 10px;
+  border-bottom: 1px solid #ffffff;
+}
+.sidelist li:last-child {
+border-bottom: : none;
+}
+
+
 .howwework-container {
   width: 920px;
   height: 214px;
-  background-color: grey;
+  background-color: #dbd8c5;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
   max-width: 920px;}
 
 .howwework{
-  color: white;
+  color: #566d73;
   font-weight: bold;
   font-size: 2rem;
   font-family: sans-serif;
-  width: 195px;
+  width: 720px;
   float: left
+
+
+}
+
+.howwework-text{
+  color: black;
+  font-family: sans-serif;
+  margin-left: 197px;
+  padding-left: 25px;
+}
+
+.plane{
+  float: left;
 }
